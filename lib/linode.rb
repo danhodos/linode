@@ -27,7 +27,7 @@ class Linode
     end
   end
   
-  has_namespace :test, :avail, :user, :domain, :linode
+  has_namespace :test, :avail, :user, :domain, :linode, :stackscript
   
   def initialize(args)
     @api_url = args[:api_url] if args[:api_url]
